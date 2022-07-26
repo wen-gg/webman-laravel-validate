@@ -1,0 +1,29 @@
+{
+    "name": "wen-gg/webman-laravel-validate",
+    "description": "适用于webman的laravel验证器",
+    "type": "library",
+    "keywords": [
+        "webman",
+        "laravel",
+        "validate",
+        "validation"
+    ],
+    "license": "MIT",
+    "require": {
+        "illuminate/validation": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wengg\\WebmanLaravelValidate\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mosquito",
+            "email": "zwj1206_hi@163.com"
+        }
+    ]
+}
